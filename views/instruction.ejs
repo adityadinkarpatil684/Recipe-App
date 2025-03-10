@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-by-Step</title>
+    <link rel="stylesheet" href="_2.css">
+</head>
+<body>
+    <div>
+        <h2>
+            <%=DishName %>
+        </h2>
+    </div>
+    <div>
+        <img>
+    </div><br>
+    <div>
+    <ul>
+        <li>Steps:</li>
+    </ul>
+    <ol></ol>
+    </div>
+    <div>
+        <a href="/details/<%=DishName%>">More details</a><br>
+        <a href="/">Home</a><br><br>
+        <form method="POST" action="/favourites">
+            <button name="dish" value="<%=DishName%>">Add to favourite</button>
+        </form>
+        
+    </div>
+    <script src="script_2.js"></script>
+</body>
+</html>

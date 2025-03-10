@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(244, 237, 237);
+   };
+
+   h2{
+       text-align: center;
+   };
+
+   img{
+     height: 100px;
+     width: 100px;
+     border-radius: 30%;
+   };
